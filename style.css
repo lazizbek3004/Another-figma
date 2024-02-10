@@ -1,7 +1,7 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 /*lazizbek part */
 
@@ -15,63 +15,484 @@
 
 
 /*fazliddin brat part */
-
-
-
-
-
-
-
-
-
-
-
-@media screen and (max-width:1025px){
-/*lazizbek part */
-
-
-
-
-
-
-/*fazliddin brat part */
-
-
-
-
-
+.Fazliddin_page1 {
+  width: 1440px;
+  height: 603px;
+  padding: 59px 165px 59px 165px;
+  background: rgb(244, 245, 247);
+}
+.Fazliddin_page1 h1 {
+  color: rgb(24, 25, 31);
+  font-family: Manrope;
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 64px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.Fazliddin_page1 p {
+  color: rgb(24, 25, 31);
+  font-family: Manrope;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 32px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-top: 5px;
+}
+.page1_box {
+  margin-top: 48px;
+  display: flex;
+  gap: 24px;
+}
+.page1_box_photo {
+  width: 170px;
+  height: 96px;
+  border-radius: 16px;
+  box-shadow: 0px 30px 40px 0px rgba(212, 217, 232, 0.2);
+  background: rgb(255, 255, 255);
+  margin-top: 120px;
+  margin-left: 82px;
+  padding: 15px 18px 24px 18px;
+  transition: all 0.2s ease-in;
 
 }
+.page1_box_photo:hover{
+    transform: scale(1.1, 1.1);
+    box-shadow: 0 10px 16px aqua
+}
+.page1_box_photo1 {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin-top: 60px;
+}
+.input_photo {
+  border-radius: 16px;
+  width: 170px;
+  height: 96px;
+  box-shadow: 0px 30px 40px 0px rgba(212, 217, 232, 0.2);
+  background: rgb(255, 255, 255);
+  padding: 18px 24px 17px 24px;
+  transition: all 0.2s ease-in;
+}
+.input_photo:hover{
+    transform: scale(1.1, 1.1);
+    box-shadow: 0 10px 16px aqua
+}
+.input_photo_1 {
+  border-radius: 16px;
+  width: 170px;
+  height: 96px;
+  box-shadow: 0px 30px 40px 0px rgba(212, 217, 232, 0.2);
+  background: rgb(255, 255, 255);
+  padding: 31.14px 24.07px 30.15px 25px;
+  transition: all 0.2s ease-in;
+}
+.input_photo_1:hover{
+    transform: scale(1.1, 1.1);
+    box-shadow: 0 10px 16px aqua
+}
+.page1_box_photo2 {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.input_photo1 {
+  border-radius: 16px;
+  width: 170px;
+  height: 96px;
+  box-shadow: 0px 30px 40px 0px rgba(212, 217, 232, 0.2);
+  background: rgb(255, 255, 255);
+  transition: all 0.2s ease-in;
+}
+.input_photo1:hover{
+    transform: scale(1.1, 1.1);
+    box-shadow: 0 10px 16px aqua
+}
+.input_photo1_1 {
+  border-radius: 16px;
+  width: 170px;
+  height: 96px;
+  box-shadow: 0px 30px 40px 0px rgba(212, 217, 232, 0.2);
+  background: rgb(255, 255, 255);
+  transition: all 0.2s ease-in;
+}
+.input_photo1_1:hover{
+    transform: scale(1.1, 1.1);
+    box-shadow: 0 10px 16px aqua
+}
+.page1_box_photo3 {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin-top: 60px;
+}
+.input_photo2 {
+  border-radius: 16px;
+  width: 170px;
+  height: 96px;
+  box-shadow: 0px 30px 40px 0px rgba(212, 217, 232, 0.2);
+  background: rgb(255, 255, 255);
+  transition: all 0.2s ease-in;
+}
+.input_photo2:hover{
+    transform: scale(1.1, 1.1);
+    box-shadow: 0 10px 16px aqua
+}
+.input_photo2_2 {
+  border-radius: 16px;
+  width: 170px;
+  height: 96px;
+  box-shadow: 0px 30px 40px 0px rgba(212, 217, 232, 0.2);
+  background: rgb(255, 255, 255);
+  transition: all 0.2s ease-in;
+}
+.input_photo2_2:hover{
+    transform: scale(1.1, 1.1);
+    box-shadow: 0 10px 16px aqua
+}
+.page1_box_photo4 {
+  margin-top: 120px;
+}
+.input_photo3 {
+  border-radius: 16px;
+  width: 170px;
+  height: 96px;
+  box-shadow: 0px 30px 40px 0px rgba(212, 217, 232, 0.2);
+  background: rgb(255, 255, 255);
+  transition: all 0.2s ease-in;
+}
+.input_photo3:hover{
+    transform: scale(1.1, 1.1);
+    box-shadow: 0 10px 16px aqua
+}
+.input_photo1 {
+  padding: 15px 19px;
+}
+.input_photo1_1 {
+  padding: 22px 1.5px;
+}
+.input_photo2 {
+  padding: 19px 26px 18px 26px;
+}
+.input_photo2_2 {
+  padding: 31.03px 26.11px 31.19px 36.09px;
+}
+.input_photo3 {
+  padding: 32px 33px 32px 34px;
+}
+.Fazliddin_page2 {
+  width: 1440px;
+  height: 621px;
+  background: #fff;
+}
+.Fazliddin_page2 img {
+  margin-top: 147px;
+  margin-left: 659px;
+}
+.Fazliddin_page2 h1 {
+  color: rgb(0, 0, 0);
+  font-family: Manrope;
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 32px;
+  letter-spacing: 0px;
+  text-align: center;
+  margin-top: 10px;
+}
+.Fazliddin_page2 p {
+  color: rgb(0, 0, 0);
+  font-family: Manrope;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 32px;
+  letter-spacing: 0px;
+  text-align: center;
+  margin-top: 20px;
+}
+.page2_button {
+  margin-top: 30px;
+  margin-left: 617px;
+  padding: 25px 40px;
+  border-radius: 8px;
+  background: rgb(248, 70, 70);
+  border: none;
+}
+.page2_button a {
+  color: rgb(255, 255, 255);
+  font-family: Manrope;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 0%;
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+.Fazliddin_footer {
+  width: 1440px;
+  height: 536px;
+  background: rgb(248, 70, 74);
+  padding-top: 80px;
+  padding-left: 104px;
+}
+.footer_links {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.footer_block {
+  display: flex;
+  gap: 100px;
+}
+.Çözüm a {
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0%;
+}
+.footer_links1 ul {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.footer_links1 ul li a {
+  color: rgb(230, 230, 230);
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0%;
+  transition: all 0.2s ease-in;
+}
+.footer_links1 ul li a:hover {
+  color: rgb(0, 30, 255);
+}
+.footer_block1 {
+  display: flex;
+  gap: 616px;
+  margin-top: 50px;
+}
+.footer_block1 div:nth-child(1) p {
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0%;
+  width: 400px;
+}
+.footer_box {
+  display: flex;
+  gap: 16px;
+}
 
+@media screen and (max-width: 1025px) {
+  /*lazizbek part */
 
+  /*fazliddin brat part */
+  .Fazliddin_page1 {
+    width: 1023px;
+    height: 603px;
+    background: rgb(244, 245, 247);
+    padding: 59px 0px 59px 0px;
+  }
+  .Fazliddin_page1 h1 {
+    color: rgb(24, 25, 31);
+    font-family: Manrope;
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 64px;
+    letter-spacing: 0%;
+    text-align: center;
+  }
+  .Fazliddin_page1 p {
+    color: rgb(24, 25, 31);
+    font-family: Manrope;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: 0%;
+    text-align: center;
+  }
+  .page1_box {
+    display: flex;
+    gap: 24px;
+  }
+  .page1_box_photo {
+    width: 170px;
+    height: 96px;
+    padding: 15px 18px 14px 18px;
+    margin-left: 38.5px;
+  }
+  .Fazliddin_page2 {
+    width: 1023px;
+    height: 634px;
+    padding-bottom: 160px;
+  }
+  .Fazliddin_page2 img {
+    width: 120px;
+    height: 120px;
+    margin-left: 452px;
+  }
+  .page2_button {
+    margin-left: 410px;
+  }
+  .Fazliddin_footer {
+    width: 1023px;
+    height: 536px;
+    padding-top: 80px;
+    padding-left: 60.96px;
+  }
+  .footer_block {
+    display: flex;
+    gap: 49px;
+  }
+  .footer_block1 {
+    display: flex;
+    gap: 396.6px;
+    margin-top: 50px;
+  }
+  .footer_block1 div:nth-child(1) p {
+    width: 284.44px;
+  }
+  .footer_box {
+    display: flex;
+    gap: 16px;
+  }
+}
 
+@media screen and (max-width: 376px) {
+  /*lazizbek part */
 
+  /*fazliddin brat part */
+  .Fazliddin_page1 {
+    width: 375px;
+    height: 944px;
+    padding-top: 40px;
+  }
+  .Fazliddin_page1 h1 {
+    color: rgb(0, 0, 0);
+    font-family: Manrope;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 41.5px;
+    letter-spacing: 0%;
+    text-align: center;
+  }
+  .Fazliddin_page1 p {
+    color: rgb(24, 25, 31);
+    font-family: Manrope;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-top: 14px;
+  }
+  .page1_box_photo3 {
+    display: none;
+  }
+  .page1_box_photo4 {
+    display: none;
+  }
+  .page1_box {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin-left: 103.5px;
+  }
+  .page1_box_photo {
+    margin-left: 0px;
+    margin-top: 40px;
+  }
+  .page1_box_photo1 {
+    margin-top: 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+  .page1_box_photo2 {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+  .Fazliddin_page2 {
+    width: 375px;
+    height: 438px;
+  }
+  .Fazliddin_page2 img {
+    width: 90px;
+    height: 90px;
+    margin-left: 143px;
+    margin-top: 90px;
+  }
+  .Fazliddin_page2 h1 {
+    color: rgb(0, 0, 0);
+    font-family: Manrope;
+    font-size: 36px;
+    font-weight: 800;
+    line-height: 32px;
+    letter-spacing: 0px;
+    text-align: center;
+  }
+  .Fazliddin_page2 p {
+    color: rgb(0, 0, 0);
+    font-family: Manrope;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 25px;
+    letter-spacing: 0px;
+    text-align: center;
+    width: 335px;
+    margin-left: 20px;
+  }
+  .page2_button {
+    padding: 0px 40px 0px 40px;
+    align-items: center;
+    height: 42px;
+    border-radius: 8px;
+    margin-top: 20px;
+    background: rgb(248, 70, 70);
+    margin-left: 120px;
+  }
+  .page2_button a {
+    color: rgb(255, 255, 255);
+    font-family: Manrope;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0%;
+    width: 83px;
+  }
+  .Fazliddin_footer {
+    width: 375px;
+    height: 1340px;
+    padding-top: 80px;
+    padding-left: 20px;
+  }
+  .footer_block {
+    display: flex;
+    flex-direction: column;
+    gap: 49px;
+  }
+  .footer_block1 {
+    display: flex;
+    flex-direction: column;
+    gap: 67.69px;
+    margin-top: 34.79px;
+  }
+  .footer_block1 div:nth-child(1) {
+    margin-top: 100px;
+  }
+  .footer_box {
+    margin-top: -200px;
 
-
-@media screen and (max-width:376px){
-    /*lazizbek part */
-    
-    
-    
-    
-    
-    
-    /*fazliddin brat part */
-    
-    
-    
-    
-    
-    
-    }
-    
-    
-
-
-
-
-
-
-
-
-
+  }
+}
