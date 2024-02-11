@@ -670,7 +670,108 @@ li {
 
 @media screen and (max-width: 1025px) {
   /*lazizbek part */
+  .wrapper{
+    width: 100%;
+}
+header{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-size: cover;
+}
+nav{
+    display: flex;
+    gap: 40px;
+    padding-top: 35px;
+    padding-left: 40px;
+    padding-right: 40px;
+    justify-content: right;
+}
+.next{
+    padding: 96px 0px 127px 84px;
+}
+.section-1{
+    padding: 120px 0px 90px 0px;
+    text-align: center;
+}
+.section-1 p{
+    width: 852px;
+}
+.section-2{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.section-3{
+    width: 100%;
 
+}
+.rows{
+    width: 100%;
+    gap: 30px;
+    justify-content: center;
+}
+.rows img{
+    width: 21px;
+    margin-top: 10px;
+}
+.rows p{
+    width: 175px;
+    font-size: 14px;
+    line-height: 21.5px;
+    justify-content: center;
+    
+}
+.section-4{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 120px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 160px;
+}
+.first{
+    width: 100%;
+    gap: 52px;
+}
+.first img{
+    width: 424px;
+}
+.writings{
+    width: 428px;
+    gap: 33px;
+}
+.writings h1{
+    width: 515px;
+    font-size: 58px;
+    line-height: 59.5px;
+}
+.writings p{
+    font-size: 14px;
+    line-height: 28.5px;
+}
+.second{
+    width: 100%;
+    gap: 56px;
+    justify-content: center;
+}
+.second img{
+    width: 424px;
+}
+.yozuvlar{
+    width: 424px;
+    gap: 33px;
+
+}
+.yozuvlar h1{
+    width: 424px;
+    font-size: 58px;
+    line-height: 59.5px;
+}
+.yozuvlar p{
+    width: 424px;
+}
   /*fazliddin brat part */
   .Fazliddin_page1 {
     width: 1023px;
@@ -745,7 +846,163 @@ li {
 
 @media screen and (max-width: 376px) {
   /*lazizbek part */
+  .wrapper{
+    width: 100%;
+}
+nav{
+    padding:35px 20px 0px 20px;
+    justify-content: space-between;
 
+}
+.home{
+    display: none;
+}
+.icons{
+    display: flex;
+}
+header{
+    background-position: center;
+}
+.next{
+    width: 100%;
+    padding: 62px 20px 84px 20px;
+}
+.next h1{
+    width: 100%;
+    font-size: 42px;
+    line-height: 57.5px;
+    text-align: center;
+}
+.next p{
+    width: 100%;
+    font-size: 12px;
+    line-height: 23px;
+    text-align: center;
+}
+.myInput{
+    width: 335px;
+    height: 59.85px;
+}
+.myInput input{
+    width: 240px;
+    height: 100%;
+}
+.myInput button{
+    width: 90px;
+    height: 50px;
+
+}
+.section-1{
+    width: 100%;
+    padding: 60px 20px 40px 20px;
+}
+.section-1 h1{
+    width: 100%;
+    font-size: 24px;
+    line-height: 33px;
+}
+.section-1 p{
+    width: 100%;
+    font-size: 12px;
+    line-height: 22px;
+}
+.section-2{
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto;
+    gap: 80px;
+}
+.section-3{
+    width: 100%;
+    padding: 50px 20px 84px 20px;
+}
+.section-3 h1{
+    font-size: 36px;
+    line-height: 47px;
+}
+.rows{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.rows img{
+    margin-top: -10px;
+    transform: rotate(90deg);
+}
+.rows p{
+    text-align: center;
+}
+.section-4{
+    width: 100%;
+    padding: 0px;
+    flex-direction: column;
+    gap: 60px;
+    align-items: center;
+}
+.first{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 90px 20px 0px 20px;
+}
+.writings{
+    width: 100%;
+}
+.writings h1{
+    width: 100%;
+    font-size: 36px;
+    line-height: 41.5px;
+    text-align: center;
+}
+.writings p{
+    width: 100%;
+    text-align: center;
+    font-size: 14px;
+    line-height: 28.5px;
+}
+.writings button{
+    width: 100%;
+}
+.onlyImage{
+    width: 100%;
+}
+.onlyImage img{
+    width: 335px;
+}
+.second{
+    width: 100%;
+    padding: 0px 20px 79px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+}
+.imag{
+    width: 100%;
+}
+.imag img{
+    width: 335px;
+}
+.yozuvlar{
+    width: 100%;
+}
+.yozuvlar h1{
+    width: 100%;
+    font-size: 36px;
+    line-height: 41.5px;
+    text-align: center;
+}
+.yozuvlar p{
+    width: 100%;
+    font-size: 14px;
+    line-height: 28.5px;
+    text-align: center;
+}
+.yozuvlar button{
+    width: 100%;
+}
   /*fazliddin brat part */
   .Fazliddin_page1 {
     width: 375px;
